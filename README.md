@@ -16,4 +16,6 @@
     - B站视频 [经典排序算法-冒泡排序（Javascript）](https://www.bilibili.com/video/BV1Wg411K7Mh/) 
   - 20211108 链表
     - 掘金文章 [[路飞]_基础数据结构-链表及算法题](https://juejin.cn/post/7028131701150711815) 
+  - 20211109 二叉树
+    - 掘金文章 [[路飞]_前端学数据结构-二叉树](https://juejin.cn/post/7028498995936755725)
 - Phase02 学习Vue3源码
