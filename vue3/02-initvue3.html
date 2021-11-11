@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+<script>
+  const Vue = {
+    createApp(options) {
+      const render = Vue.createRenderer({
+        querySelector(selector) {
+          return document.querySelector(selector)
+        },
+        insert(child, parent, anchor = null) {
+          parent.insertBefore(child, anchor)
+        }
+      })
+      return render.createApp(options)
+    },
+    createRenderer({ //不同平台的扩展
+      querySelector,
+      insert
+    }) {
+      return {
+        createApp(options) {
+          return {
+            mount(selector) {
+              const parent = querySelector(selector)
+              // 如果没有手动写的render方法
+              if(!options.render) {
+                options.render = this.compile(parent.innerHTML)
+              }
+              if (options.setup) {
+                this.setupState = options.setup()
+              }
+              this.data = options.data()
+              this.proxy = new Proxy(this, {
+                get(target, key) {
+                  if(key in target.setupState) {
+                    return target.setupState[key]
+                  } else {
+                    return target.data[key]
+                  }
+                },
+                set(target, key, val) {
+                  if(key in target.setupState) {
+                    target.setupState[key] = val
+                  } else {
+                    target.data[key] = val
+                  }
+                }
+              })
+              const el = options.render.call(this.proxy)
+              insert(el, parent)
+            },
+            compile(template) {
+              return function render() {
+                const h3 = document.createElement('h3')
+                h3.textContent = this.title
+                return h3
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  const {
+    createApp
+  } = Vue
+  const app = createApp({
+    // 兼容vue2.0 Options API
+    data() {
+      return {
+        title: '我是data中的title'
+      }
+    },
+    setup() {
+      return {
+        title: '我是setup中的title'
+      }
+    }
+  })
+  app.mount('#app')
+</script>
+
+</html>
