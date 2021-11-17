@@ -24,6 +24,8 @@
     - B站视频 [有趣的排序-计数排序](https://www.bilibili.com/video/BV1ab4y1t7Wy/) 
   - 20211115
     - 掘金文章 [[路飞]_重学算法-计数排序与桶排序](https://juejin.cn/post/7030704811431608356)
+  - 20211117
+    - 掘金文章 [[路飞]_你不知道的力扣刷题技巧(Javascript)-优先队列](https://juejin.cn/post/7031570472231927845)
 - Phase02 学习Vue3源码
   - 20211110 
     - 掘金文章 [[路飞]_学习Vue3初始化流程](https://juejin.cn/post/7028869491190661151)
