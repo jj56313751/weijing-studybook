@@ -26,6 +26,8 @@
     - 掘金文章 [[路飞]_重学算法-计数排序与桶排序](https://juejin.cn/post/7030704811431608356)
   - 20211117
     - 掘金文章 [[路飞]_你不知道的力扣刷题技巧(Javascript)-优先队列](https://juejin.cn/post/7031570472231927845)
+  - 20211121
+    - B站视频 [经典排序算法-桶排序（Javascript）](https://www.bilibili.com/video/BV1qM4y1A7AC/) 
 - Phase02 学习Vue3源码
   - 20211110 
     - 掘金文章 [[路飞]_学习Vue3初始化流程](https://juejin.cn/post/7028869491190661151)
