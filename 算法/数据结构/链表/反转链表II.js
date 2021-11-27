@@ -13,12 +13,12 @@
  */
 var reverseBetween = function (head, left, right) {
   var ret = new ListNode(null, head)
-  var cnt = right - left + 1
-  var p = ret
+  var cnt = right - left + 1 // 需要反转区间的个数
+  var pre = ret
   while (--left) {
-    p = p.next
+    pre = pre.next
   }
-  p.next = reverse(p.next, cnt) //必须反转p.next，如果直接反转p，p的前一个元素仍然指向p，中间反转的部分都被略过了
+  pre.next = reverse(pre.next, cnt) // 必须反转p.next，如果直接反转p，p的前一个元素仍然指向p，中间反转的部分都被略过了
   return ret.next
 };
 
