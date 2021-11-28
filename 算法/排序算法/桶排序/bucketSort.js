@@ -8,8 +8,7 @@ function bucketSort(arr) {
   }
   // 生成桶数组
   const bucketNum = Math.floor((max - min) / arr.length) + 1 //桶数量
-  let bucketArr = new Array(bucketNum).fill(null)
-  bucketArr = bucketArr.map(_ => [])
+  const bucketArr = new Array(bucketNum).fill(null).map(_ => [])
   // 每个元素放入桶
   for (let v of arr) {
     let index = Math.floor((v - min) / arr.length)
