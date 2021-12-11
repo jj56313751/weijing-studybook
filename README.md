@@ -34,6 +34,8 @@
     - 掘金文章 [[路飞]_5分钟学会反转链表](https://juejin.cn/post/7034813916211314718)
   - 20211128
     - B站视频 [【力扣】206.反转链表](https://www.bilibili.com/video/BV1NY411s7iT/)
+  - 20211129
+    - B站视频 [【力扣】92. 反转链表 II](https://www.bilibili.com/video/BV1uL4y1W7vJ/)
 - Phase02 学习Vue3源码
   - 20211110 
     - 掘金文章 [[路飞]_学习Vue3初始化流程](https://juejin.cn/post/7028869491190661151)
@@ -42,3 +44,5 @@
     - 掘金文章 [OSI七层模型学习笔记 ](https://juejin.cn/post/7038607160112054309)
   - 20211207 
     - 掘金文章 [高频面试题-在浏览器中输入URL会发生什么 ](https://juejin.cn/post/7038902150138724359)
+  - 20211208
+    - 掘金文章 [用Nodejs实现RESTFUL风格接口，返回常见HTTP状态码](https://juejin.cn/post/7039359195333787656)
