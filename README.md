@@ -20,6 +20,8 @@
     - 掘金文章 [[路飞]_前端学数据结构-二叉树](https://juejin.cn/post/7028498995936755725)
   - 20211111
     - 掘金文章 [[路飞]_二分查找以及算法题](https://juejin.cn/post/7029345519499477005)
+  - 20211112
+    - [[路飞]_你可能不知道的排序-归并排序（MergeSort）](https://juejin.cn/post/7029709682646188039)
   - 20211114
     - B站视频 [有趣的排序-计数排序](https://www.bilibili.com/video/BV1ab4y1t7Wy/) 
   - 20211115
@@ -36,6 +38,9 @@
     - B站视频 [【力扣】206.反转链表](https://www.bilibili.com/video/BV1NY411s7iT/)
   - 20211129
     - B站视频 [【力扣】92. 反转链表 II](https://www.bilibili.com/video/BV1uL4y1W7vJ/)
+  - 20211212
+    - B站视频 [【力扣】725. 分隔链表](https://www.bilibili.com/video/BV1aP4y1G7gw/)
+    - B站视频 [【力扣】面试题 02.04. 分割链表](https://www.bilibili.com/video/BV19a411r7DF/)
 - Phase02 学习Vue3源码
   - 20211110 
     - 掘金文章 [[路飞]_学习Vue3初始化流程](https://juejin.cn/post/7028869491190661151)
