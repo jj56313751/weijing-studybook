@@ -81,3 +81,19 @@ class Heap {
     }
   }
 }
+
+let arr = [2,4,5,6,1,7,8]
+const heap = new Heap(arr)
+console.log('init', heap.arr)
+// heap.push(10)
+// console.log(heap.arr)
+// heap.push(11)
+// console.log(heap.arr)
+console.log(heap.pop())
+console.log(heap.arr)
+console.log(heap.pop())
+console.log(heap.arr)
+console.log(heap.pop())
+console.log(heap.arr)
+console.log(heap.pop())
+console.log(heap.arr)

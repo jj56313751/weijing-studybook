@@ -43,6 +43,8 @@
     - B站视频 [【力扣】面试题 02.04. 分割链表](https://www.bilibili.com/video/BV19a411r7DF/)
   - 20211216
     - 掘金文章 [[路飞]_从层序遍历二叉树中理解递归与迭代](https://juejin.cn/post/7042314248411676709)
+  - 20211220
+    - B站视频 [如何用js实现一个堆](https://www.bilibili.com/video/BV17b4y1v7Ee/)
 - Phase02 学习Vue3源码
   - 20211110 
     - 掘金文章 [[路飞]_学习Vue3初始化流程](https://juejin.cn/post/7028869491190661151)
