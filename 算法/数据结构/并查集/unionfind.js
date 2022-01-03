@@ -1,7 +1,7 @@
 class UnionFind {
   constructor(n) {
     // 每个节点初始化父节点为本身
-    this.parent = new Array(n).fill(0).map((item, index) => index)
+    this.parent = new Array(n).fill(0).map((item, index) => index) 
     // 每个节点上集合的数量，初始化1个本身
     this.rank = new Array(n).fill(1)
     // 几个个数，初始化为n
