@@ -47,8 +47,6 @@
     - B站视频 [如何用js实现一个堆](https://www.bilibili.com/video/BV17b4y1v7Ee/)
   - 20211227
     - 掘金文章 [[路飞]_并查集适合解决的算法问题](https://juejin.cn/post/7046393145281478663)
-  - 20220104
-    - 掘金文章 [git如何不提交当前分支的修改，并且切换到其他分支](https://juejin.cn/post/7049242305844215844)
   - 20220110
     - B站视频 [【力扣】102. 二叉树的层序遍历](https://www.bilibili.com/video/BV1iF411v7oK?spm_id_from=333.999.0.0)
 - Phase02 学习Vue3源码
@@ -64,3 +62,6 @@
     - 掘金文章 [高频面试题-在浏览器中输入URL会发生什么 ](https://juejin.cn/post/7038902150138724359)
   - 20211208
     - 掘金文章 [用Nodejs实现RESTFUL风格接口，返回常见HTTP状态码](https://juejin.cn/post/7039359195333787656)
+- Phase04 工程化相关
+  - 20220104
+    - 掘金文章 [git如何不提交当前分支的修改，并且切换到其他分支](https://juejin.cn/post/7049242305844215844) 
