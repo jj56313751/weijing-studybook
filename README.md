@@ -47,6 +47,13 @@
     - B站视频 [如何用js实现一个堆](https://www.bilibili.com/video/BV17b4y1v7Ee/)
   - 20211227
     - 掘金文章 [[路飞]_并查集适合解决的算法问题](https://juejin.cn/post/7046393145281478663)
+  - 20220104
+    - 掘金文章 [git如何不提交当前分支的修改，并且切换到其他分支](https://juejin.cn/post/7049242305844215844)
+  - 20220110
+    - B站视频 [【力扣】102. 二叉树的层序遍历](https://www.bilibili.com/video/BV1iF411v7oK?spm_id_from=333.999.0.0)
+  - 20220112
+    - 掘金文章 [[路飞]_vue3.0源码学习——环境搭建](https://juejin.cn/post/7052338027653234695)
+    - 掘金文章 [[路飞]_vue3.0源码学习——整体架构 ](https://juejin.cn/post/7052353445918933022)
 - Phase02 学习Vue3源码
   - 20211110 
     - 掘金文章 [[路飞]_学习Vue3初始化流程](https://juejin.cn/post/7028869491190661151)
