@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <p id="prag" title="text">
+    一段文本
+    <span id="sp">一句话</span>
+  </p>
+  <script>
+    // innerHTML、nodeValue 与textContent之间的区别
+    var p = document.getElementById('prag')
+    console.log('nodeValue', p.nodeValue)
+    console.log(p.getAttributeNode('id').nodeValue)
+    console.log('childNodes', p.childNodes[0].nodeValue)
+    console.log('innerHTML', p.innerHTML)
+    console.log('innerText', p.innerText)
+    console.log('textContent', p.textContent)
+    var span = document.getElementById('sp')
+    var sn = document.getElementsByTagName('span')
+    console.log(sn[0].nodeValue)
+    console.log(sn)
+    console.log(span.innerHTML.nodeValue)
+  </script>
+</body>
+</html>
