@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .content {
+      width: 640px;
+      margin: 0 auto;
+    }
+
+    .content img {
+      width: 640px;
+      height: 360px;
+      margin-bottom: 10px;
+      background: gray;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <img data-src="https://img9.51tietu.net/pic/2019-090921/lo24s1wwniplo24s1wwnip.jpg?v=1">
+    <img data-src="https://img9.51tietu.net/pic/2019-090921/lo24s1wwniplo24s1wwnip.jpg?v=2">
+    <img data-src="https://img9.51tietu.net/pic/2019-090921/lo24s1wwniplo24s1wwnip.jpg?v=3">
+    <img data-src="https://img9.51tietu.net/pic/2019-090921/lo24s1wwniplo24s1wwnip.jpg?v=4">
+    <img data-src="https://img9.51tietu.net/pic/2019-090921/lo24s1wwniplo24s1wwnip.jpg?v=5">
+    <img data-src="https://img9.51tietu.net/pic/2019-090921/lo24s1wwniplo24s1wwnip.jpg?v=6">
+    <img data-src="https://img9.51tietu.net/pic/2019-090921/lo24s1wwniplo24s1wwnip.jpg?v=7">
+    <img data-src="https://img9.51tietu.net/pic/2019-090921/lo24s1wwniplo24s1wwnip.jpg?v=8">
+    <img data-src="https://img9.51tietu.net/pic/2019-090921/lo24s1wwniplo24s1wwnip.jpg?v=9">
+    <img data-src="https://img9.51tietu.net/pic/2019-090921/lo24s1wwniplo24s1wwnip.jpg?v=10">
+  </div>
+  <script>
+    const observer = new IntersectionObserver(changes => {
+      const clientHeight = window.innerHeight
+      changes.forEach(item => {
+        const { target, isIntersecting } = item
+        const rect = target.getBoundingClientRect()
+        if (isIntersecting) { //到达窗口可是区域
+          loadImg(target)
+          observer.unobserve(target) // 加载图片后解除观察
+        }
+      })
+    })
+
+    function loadImg(el) {
+      var src = el.getAttribute('data-src')
+      var img = new Image()
+      img.src = src
+      img.onload = function () {
+        el.src = src
+        el.removeAttribute('data-src')
+      }
+    }
+
+    document.querySelectorAll('img[data-src]').forEach(item => {
+      observer.observe(item)
+    })
+  </script>
+</body>
+
+</html>
