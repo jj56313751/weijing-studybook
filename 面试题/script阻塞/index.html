@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@3.2.29/dist/vue.global.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@3.2.29/dist/vue.global.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@3.2.29/dist/vue.global.min.js" async></script> -->
+</head>
+<body>
+  <div id="app">
+    <ul>
+      <li v-for="(item, index) in 1000">{{ index }}</li>
+    </ul>
+  </div>
+  <script>
+    const app = Vue.createApp({
+      
+    })
+    app.mount('#app')
+  </script>
+</body>
+</html>
