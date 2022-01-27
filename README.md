@@ -63,6 +63,10 @@
     - 掘金文章[Vue3.0源码学习——初始化流程分析（3.patch过程）](https://juejin.cn/post/7056081078607413284)
   - 20220124
     - 掘金文章[Vue3.0源码学习——更新流程分析](https://juejin.cn/post/7056782816998064165)
+  - 20220126
+    - 掘金文章[Vue3.0源码学习——Composition API](https://juejin.cn/post/7057524274751340580)
+  - 20220127
+    - 掘金文章[Vue3.0源码学习——如何兼容Vue2.0 Options API](https://juejin.cn/post/7057808594778980382)
 - Phase03 计算机网络
   - 20211206 
     - 掘金文章 [OSI七层模型学习笔记 ](https://juejin.cn/post/7038607160112054309)
