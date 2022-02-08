@@ -49,6 +49,8 @@
     - 掘金文章 [[路飞]_并查集适合解决的算法问题](https://juejin.cn/post/7046393145281478663)
   - 20220110
     - B站视频 [【力扣】102. 二叉树的层序遍历](https://www.bilibili.com/video/BV1iF411v7oK?spm_id_from=333.999.0.0)
+  - 20220202
+    - 掘金文章 [[路飞]_单调队列及算法题应用](https://juejin.cn/post/7060136467120521247)
 - Phase02 学习Vue3源码
   - 20211110 
     - 掘金文章 [[路飞]_学习Vue3初始化流程](https://juejin.cn/post/7028869491190661151)
@@ -60,13 +62,17 @@
   - 20220121
     - 掘金文章 [Vue3.0源码学习——初始化流程分析（2.挂载过程）](https://juejin.cn/post/7055545418196713486)
   - 20220123
-    - 掘金文章[Vue3.0源码学习——初始化流程分析（3.patch过程）](https://juejin.cn/post/7056081078607413284)
+    - 掘金文章 [Vue3.0源码学习——初始化流程分析（3.patch过程）](https://juejin.cn/post/7056081078607413284)
   - 20220124
-    - 掘金文章[Vue3.0源码学习——更新流程分析](https://juejin.cn/post/7056782816998064165)
+    - 掘金文章 [Vue3.0源码学习——更新流程分析](https://juejin.cn/post/7056782816998064165)
   - 20220126
-    - 掘金文章[Vue3.0源码学习——Composition API](https://juejin.cn/post/7057524274751340580)
+    - 掘金文章 [Vue3.0源码学习——Composition API](https://juejin.cn/post/7057524274751340580)
   - 20220127
-    - 掘金文章[Vue3.0源码学习——如何兼容Vue2.0 Options API](https://juejin.cn/post/7057808594778980382)
+    - 掘金文章 [Vue3.0源码学习——如何兼容Vue2.0 Options API](https://juejin.cn/post/7057808594778980382)
+  - 20220128
+    - 掘金文章 [Vue3.0源码学习——生命周期钩子函数](https://juejin.cn/post/7058257300083081229)
+  - 20220129
+    - 掘金文章 [Vue3.0源码学习——Provide / Inject](https://juejin.cn/post/7058654438877036581)
 - Phase03 计算机网络
   - 20211206 
     - 掘金文章 [OSI七层模型学习笔记 ](https://juejin.cn/post/7038607160112054309)
@@ -79,6 +85,14 @@
     - 掘金文章 [git如何不提交当前分支的修改，并且切换到其他分支](https://juejin.cn/post/7049242305844215844) 
 - Phase05 面试题
   - 20220122
-    - 掘金文章[经典面试题：手动实现call,apply,bind ](https://juejin.cn/post/7055926997419032584)
+    - 掘金文章 [经典面试题：手动实现call,apply,bind ](https://juejin.cn/post/7055926997419032584)
   - 20220125
-    - 掘金文章[简单实现图片懒加载](https://juejin.cn/post/7057053708789481486)
+    - 掘金文章 [简单实现图片懒加载](https://juejin.cn/post/7057053708789481486)
+  - 20220130
+    - 掘金文章 [经典面试题：0.1 + 0.2 === 0.3 吗？](https://juejin.cn/post/7058998869685862408)
+  - 20220131
+    - 掘金文章 [面试题：Javascript中Symbol有什么用处？](https://juejin.cn/post/7059391253560950792)
+  - 20220201
+    - 掘金文章 [Javascript中this的指向问题](https://juejin.cn/post/7059747746269364232)
+  - 20220204
+    - 掘金文章 [面试题：模拟实现Javascript的new运算符](https://juejin.cn/post/7060878120915566623)
