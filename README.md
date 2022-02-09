@@ -96,3 +96,7 @@
     - 掘金文章 [Javascript中this的指向问题](https://juejin.cn/post/7059747746269364232)
   - 20220204
     - 掘金文章 [面试题：模拟实现Javascript的new运算符](https://juejin.cn/post/7060878120915566623)
+  - 20220207
+    - 掘金文章 [Javascript的作用域](https://juejin.cn/post/7061873515036672008)
+  - 20220208
+    - 掘金文章 [箭头函数和普通函数的区别 ](https://juejin.cn/post/7062351743723503630)
